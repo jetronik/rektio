@@ -28,7 +28,7 @@ function App() {
           </InputGroup>
         </Form>
         <div className="my-table">
-          <Table striped bordered hover className="h-3">
+          <Table striped bordered hover>
             <thead>
               <tr>
                 <th>Sana</th>
