@@ -7,6 +7,7 @@ import InputGroup from "react-bootstrap/InputGroup";
 import { data } from "./data";
 import "bootstrap/dist/css/bootstrap.min.css";
 import NavBar from "./components/NavBar";
+import HomePage from "./components/HomePage";
 
 function App() {
   const [search, setSearch] = useState("");
@@ -15,11 +16,14 @@ function App() {
   return (
     <div className="App">
       <NavBar />
-      <Container className=" pt-5">
+      <br />
+      <HomePage />
+
+      <Container id="rektio" className=" pt-5" onClick={"rektio"}>
         <Form>
           <br />
           <h3 className="text-center">Rektio</h3>
-          <lable>Rektio</lable>
+
           <InputGroup className="my-3">
             <Form.Control
               onChange={(e) => setSearch(e.target.value)}
@@ -27,6 +31,7 @@ function App() {
             />
           </InputGroup>
         </Form>
+
         <div className="my-table">
           <Table striped bordered hover>
             <thead>

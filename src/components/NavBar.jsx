@@ -5,7 +5,7 @@ const NavBar = () => {
     <nav className="navbar navbar-expand-md bg-dark navbar-dark py-3 fixed-top">
       <div className="container">
         <a href="#" className="navbar-brand">
-          Time to lear rektio
+          Time to learn rektio
         </a>
         <button
           className="navbar-toggler"
@@ -18,11 +18,11 @@ const NavBar = () => {
         <div className="collapse navbar-collapse">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item">
-              <a href="#learn" className="nav-link">
+              <a href="#rektio" className="nav-link">
                 What You'll Lern
               </a>
             </li>
-            <li className="nav-item">
+            <li className="#result">
               <a href="#questions" className="nav-link">
                 Queations
               </a>
